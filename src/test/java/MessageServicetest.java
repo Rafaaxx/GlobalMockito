@@ -1,6 +1,7 @@
 import org.example.model.Message;
 import org.example.repository.MessageRepository;
 import org.example.service.MessageService;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import java.util.Optional;
 
@@ -9,6 +10,7 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 public class MessageServicetest {
+
     @Test
     public void savetest(){
         MessageRepository mockmessage=mock(MessageRepository.class);
